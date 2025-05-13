@@ -14,7 +14,7 @@ BG_MAIN, BG_LIST = "#121212", "#181818"
 ACCENT, FG, FG_DIM = "#1DB954", "#FFFFFF", "#A7A7A7"
 FONT, FONT_BIG = ("Segoe UI", 11), ("Segoe UI", 13, "bold")
 
-# Catálogo ampliado
+# Catálogo
 songs_catalog = [
     {"title":"Imagine","artist":"John Lennon","duration":"3:07"},
     {"title":"Billie Jean","artist":"Michael Jackson","duration":"4:54"},
