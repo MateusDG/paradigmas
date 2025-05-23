@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
 # imperative_gui.py
-"""
-Streaming de música (imperativo) – GUI Spotify-like
-Correção final: renomeado _bind para _setup_bindings para não sobrescrever bind().
-Ordenação por coluna, destaque da faixa em reprodução e +30 músicas.
-"""
 
 import tkinter as tk
 from tkinter import ttk, simpledialog, messagebox
@@ -57,7 +52,7 @@ _sec2str = lambda s: f"{s//60}:{s%60:02d}"
 class PlayerApp(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("Imperative | Music Player")
+        self.title("Imperative Player")
         self.configure(bg=BG_MAIN)
         self.geometry("1020x650")
         self.minsize(880,540)

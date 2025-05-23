@@ -9,7 +9,7 @@ from utils import str2sec, sec2str, theme
 class OOPlayerApp(tk.Tk):
     def __init__(self, player: PlayerInterface):
         super().__init__()
-        self.title("OO Streaming – Music Player")
+        self.title("OO Streaming")
         self.configure(bg=theme['BG_MAIN'])
         self.geometry("1020x650")
         self.minsize(880, 540)
